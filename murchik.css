@@ -1,0 +1,163 @@
+body {
+	background-color: black;
+}
+a:link {
+		color: black;
+}
+a:visited {
+		color: black;
+}
+a:hover {
+		color: black;
+}
+a:active {
+		color: red;
+}
+.rectangle {
+	position: relative;
+	width: 800px;
+	height: 450px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.murchik_mainpage_img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 350px;
+	height: 450px;
+	object-fit: cover;
+	margin-right: 30px;
+	border-top-right-radius: 350px;
+	border-top-left-radius: 350px;
+}
+.cat_bowl_img {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+.charming_mainpage_text {
+	display: block;
+	float: left;
+	margin-top: 430px;
+	margin-left: 200px;
+	font-family: consolas;
+	font-size: 33px;
+	font-weight: bold;
+	transform: rotate(-90deg);
+	transform-origin: 0 0;
+	height: 360px;
+	line-height: 360px;
+	color: black;
+	text-align: center;
+	width: 80px;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-radius: 30px 0 0 30px;
+}
+.murchik_logo_text{
+	position: absolute;
+	font-family: consolas;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+.the_cat_text {
+	position: absolute;
+	font-family: consolas;
+				font-weight: bold;
+
+	font-size: 40px;
+	margin-top: 80px;
+	margin-left: 35px;
+}
+.dot_red {
+	position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: red;
+    margin-top: 200px;
+	margin-left: -250px;
+}
+.video_link_text {
+	position: absolute;
+	font-family: consolas;
+	font-size: 25px;
+	margin-top: 236px;
+	margin-left: 46px;
+	color: white;
+}
+.description_link_text {
+	position: absolute;
+	font-family: consolas;
+	font-size: 25px;
+	margin-top: 395px;
+	margin-left: 35px;
+	font-weight: bold;
+
+}
+video {
+	position: absolute;
+	font-family: consolas;
+	font-size: 25px;
+	height: 100vh;
+	width: 100vw;
+	margin-top: 100px;
+	width: 150px;
+	height: 270px;
+}
+.cat_border_img {
+	position: absolute;
+	width: 100px;
+	height: 450px;
+	object-fit: cover;
+	margin-left: 675px;
+}
+.button {
+	position: absolute;
+	border: 0;
+	background: transparent;
+	box-sizing: border-box;
+	width: 0;
+	height: 20px;
+	margin-top: 380px; 
+
+	border-color: transparent transparent transparent black;
+	transition: 100ms all ease;
+	cursor: pointer;
+
+	border-style: solid;
+	border-width: 12px 0 12px 20px;
+}
+.button.paused {
+	    border-style: double;
+	    border-width: 0px 0 0px 20px;
+}
+.button:hover {
+    border-color: transparent transparent transparent #404040;
+}
+.description_text {
+	position: absolute;
+	font-family: consolas;
+	font-size: 15.5px;
+}
+.murch_kiddo_img {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 530px;
+	height: 170px;
+	width: 170px;
+}
+.murch_table_img {
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 35px;
+	height: 130px;
+	width: 300px;
+}

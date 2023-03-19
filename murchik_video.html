@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MURCHIK VIDEO</title>
+	<link type="image/x-icon" href="pixel-cat.png" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="murchik.css">  
+</head>
+<body>
+	<div class="rectangle">
+		<a href="murchik_mainpage.html"><div class="murchik_logo_text">MURCHIK</div></a>
+
+		<img src="border_cat.png", class="cat_border_img">
+
+		<video id="hat" controls style="margin-left: 46px;">	
+			<source src="hat.mp4" type="video/mp4">
+		</video>
+
+		<video id="happy" controls style="margin-left: 245px;">
+  			<source src="happy_cat.mp4" type="video/mp4">
+		</video>
+
+		<video id="sticker" controls style="margin-left: 445px;">
+  			<source src="sticker.mp4" type="video/mp4">
+		</video>
+
+		<button id="hatbtn" onclick="playPauseHat() "class='button' style="margin-left: 110px;"></button>
+
+		<button id="happybtn" onclick="playPauseHappy() "class='button' style="margin-left: 315px;"></button>
+
+		<button id="stickerbtn" onclick="playPauseSticker() "class='button' style="margin-left: 520px;"></button>
+	</div>
+
+	<script type="text/javascript">
+		var happy = document.getElementById("happy");
+		var hatbtn = document.getElementById("hatbtn");
+		function playPauseHappy() { 
+		  if (happy.paused) {
+		    happy.play();
+		  }
+		  else {
+		    happy.pause();
+		  }
+		  happybtn.classList.toggle("paused");
+		}
+
+		var hat = document.getElementById("hat"); 
+		var hatbtn = document.getElementById("hatbtn");	
+		function playPauseHat() { 
+		  if (hat.paused) {
+		    hat.play();
+		  }
+		  else {
+		    hat.pause();
+		   }
+		   hatbtn.classList.toggle("paused");
+		}
+
+		var sticker = document.getElementById("sticker"); 
+		function playPauseSticker() { 
+		  if (sticker.paused) {
+		    sticker.play();
+		  }
+		  else { 
+		    sticker.pause();
+		  }
+		  stickerbtn.classList.toggle("paused");
+		}
+	</script>
+</body>
+</html>
